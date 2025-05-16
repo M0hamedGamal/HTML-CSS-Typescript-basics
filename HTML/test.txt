@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<h1 align='center'>Welcome back!</h1>
+<font color='red'>Ordered List</font>
+<ol type='i' start='4'>
+	<li><a href='test2.html'>Go to another file</a></li>
+</ol>
+
+<font color='green' size='5'>Unordered List</font>
+<ul type='square'>
+	<li><a href='test2.html#bp2'>Go to another file's section</a></li>
+
+</ul>
+
+<font color='blue' size='5'>Definition List</font>
+<dl>
+	<dt>First Item</dt>
+	<dd><a href='mailto:mohamed.gamal@gmail.com?subject=Meeting  tommorow&body=Hello, Eng.Mohamed'>Send Mail</a></dd>
+	
+</dl>
+
+<pre>
+First &gt&lt Second
+</pre>
+
+<table width='600' border='2px'>
+<thead>
+<tr>
+<th>Name</th>
+<th>HTML Entity</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Non-breaking space</td>
+<td>&nbsp</td>
+<td>Beer in this store costs $&nbsp5</td>
+</tr>	
+<tr>
+<td>Less than (<)</td>
+<td>&lt</td>
+<td>2 &lt 5</td>
+</tr>
+<tr>
+<td>More than (>)</td>
+<td>&gt</td>
+<td>7 &gt 3</td>
+</tr>
+<tr>
+<td>Ampersand (&)</td>
+<td>&amp</td>
+<td>You &amp me</td>
+</tr>
+<tr>
+<td>Euro (€)</td>
+<td>&euro;</td>
+<td>&euro; 50</td>
+</tr>
+<tr>
+<td>Pound (£)</td>
+<td>&pound</td>
+<td>&pound 100</td>
+</tr>
+<tr>
+<td>double quotation mark (“)</td>
+<td>&quot</td>
+<td>My name is &quotMohamed Gamal&quot</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<br/>
+<img src='https://www.google.com.eg/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png' width='100px' alt='Image URL' align='left' />
+<img src='Images/googlelogo_color_272x92dp.png' height='50px' alt='Image Path' align='right' />
+<br/>
+<br/>
+<a href='https://www.google.com.eg'>
+<img src='https://www.google.com.eg/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png' width='100px' alt='Image URL' align='left' />
+</a>
+<br/><br/>
+<br/><br/>
+<br/><br/>
+<br/><br/>
+<img src='Images/googlelogo_color_272x92dp.png' alt='Image Path' align='center' usemap='#myMap' />
+<map id='myMap'>
+<area shape='circle' coords='70,70,70' href='./test2.html' />
+<area shape='rectangle' coords='155 55,326 126' href='https://www.google.com.eg' />
+</map>
+<br/><br/>
+<br/><br/>
+<br/><br/>
+<br/><br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BTHgh4FzRdk?si=7iy81vHLiOhKrenu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<br/>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13835.007854761263!2d31.0679065!3d29.900246799999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2seg!4v1734812090516!5m2!1sen!2seg" width="560" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<br/><br/>
+<br/><br/>
+<br/><br/>
+<br/><br/>
+<table width='600' border='2px' cellpadding='10px' cellspacing='5px'>
+<caption>Table Task</caption>
+<thead>
+<tr>
+<th colspan='2'>Name</th>
+<th rowspan='2' width='50%'>Address</th>
+</tr>
+<tr>
+<th>First</th>
+<th>Second</th>
+</tr>
+</thead>
+<tbody bgcolor='green'>
+<tr>
+<td colspan='3'><font color='white'>Mohamed Gamal Al-Doctor</font></td>
+</tr>
+<tr>
+<td rowspan='2' colspan='2' align='center' valign='top'>Big Data</td>
+<td>25</td>
+</tr>
+<tr>
+<td colspan='3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non faucibus sem. Mauris fringilla, mauris non ullamcorper tincidunt, quam augue dignissim dui, a scelerisque ligula dui efficitur turpis. Etiam nec enim a nunc pellentesque tincidunt. Quisque gravida sem velit, non facilisis lectus condimentum at. Donec rutrum dapibus justo nec sagittis.</td>
+</tr>
+</tbody>
+</table>
+<br/><br/>
+<br/><br/>
+<br/><br/>
+<br/><br/>
+Username: <input type='text' id='username' name='username' value='Mohamed Gamal'/>
+Password: <input type='password' id='password' name='password' value='My Password'/>
+Favorites
+<input type='checkbox' /> Tea
+<input type='checkbox' /> Coffee
+<input type='checkbox' /> Milk
+
+</body>
+</html>

@@ -1,0 +1,562 @@
+/* Universal Selector */
+/** {*/
+/*    color: gray;*/
+/*}*/
+
+/* Multiple and Combinator Selectors */
+/*h1, h2, h3, h4, h5, h6 {*/
+/*    color: red;*/
+/*}*/
+
+/* Each p in the div [div p]  */
+/*div p {*/
+/*    color: blueviolet;*/
+/*}*/
+
+/* Each p in the div direct [div > p]   */
+/*div > p {*/
+/*    color: green;*/
+/*}*/
+
+/* Each p after the div [div + p]   */
+/*div ~ p {*/
+/*    color: sandybrown;*/
+/*}*/
+
+/* Any single p after the div direct [div + p]   */
+/*div + p {*/
+/*    color: blue;*/
+/*}*/
+
+/*---------------------------------------------------------*/
+
+/* Each element has p123 as a key */
+/*[p123] {*/
+/*    color: chocolate;*/
+/*}*/
+
+/* Each element has p123 as a key and its value is '150' */
+/*[p123 = '150'] {*/
+/*    color: blueviolet;*/
+/*}*/
+
+/* Each element has p123 as a key and starts with '1' */
+/*[p123 ^= '1'] {*/
+/*    color: yellowgreen;*/
+/*}*/
+
+/* Each element has p123 as a key and ends with '7' */
+/*[p123 $= '7'] {*/
+/*    color: gray;*/
+/*}*/
+
+/* Each element has p123 as a key and has '0' */
+/*[p123 *= '0'] {*/
+/*    color: cornflowerblue;*/
+/*}*/
+
+/* Each element has p123 as a key and has a word 'ccc' */
+/*[p123 ~= 'ccc'] {*/
+/*    color: goldenrod;*/
+/*}*/
+
+/*---------------------------------------------------------*/
+
+/*.lorem_txt {*/
+/*    color: goldenrod;*/
+/*}*/
+
+/*.lorem_txt:hover {*/
+/*    color: yellowgreen;*/
+/*}*/
+
+/*.lorem_txt::selection {*/
+/*    color: red;*/
+/*}*/
+
+/*.lorem_txt::first-letter {*/
+/*    color: blueviolet;*/
+/*}*/
+
+/*.lorem_txt::first-line {*/
+/*    color: olivedrab;*/
+/*}*/
+
+/*.lorem_txt::before {*/
+/*    content: 'This is a before text';*/
+/*    color: black;*/
+/*}*/
+
+/*.lorem_txt::after {*/
+/*    content: 'This is an after text';*/
+/*    color: brown;*/
+/*}*/
+
+/*---------------------------------------------------------*/
+
+/*footer#global::before {*/
+/*    content: '';*/
+/*    display: block;*/
+/*    height: 100px;*/
+/*    background: url(../images/footer-curl.png) -10px 0 / auto 100% no-repeat, url(../images/footer-wave.png) 0 100% / auto 2em repeat-x, url(../images/footer-wave.png) 0 95% / auto 1.5em repeat-x, linear-gradient(179.5deg, hsla(34deg, 38%, 99%, 1), hsl(25deg, 0%, 97%)) 0 0 / 100% 100%;*/
+/*}*/
+
+/*---------------------------------------------------------*/
+
+/*.name_one {*/
+/*    border-width: 5px;*/
+/*    border-style: solid;*/
+/*    border-color: black;*/
+
+/*    border-radius: 15px 25px 35px 45px;*/
+
+/*    padding-top: 4px;*/
+/*    padding-right: 6px;*/
+/*    padding-bottom: 8px;*/
+/*    padding-left: 10px;*/
+
+/*    margin-top: 4px;*/
+/*    margin-right: 6px;*/
+/*    margin-bottom: 8px;*/
+/*    margin-left: 10px;*/
+
+/*    width: 100px;*/
+/*    height: 200px;*/
+
+/*    box-sizing: content-box;*/
+
+/*    display: inline-block;*/
+
+/*    box-shadow: 5px 5px 5px 1px rgba(0,0,0,0.75);*/
+/*}*/
+
+/*.name_two, .name_three {*/
+/*    border: 5px dashed red;*/
+
+/*    border-radius: 15px 30px;*/
+
+/*    padding: 4px 6px 8px 10px;*/
+
+/*    margin: 4px 6px 8px 10px;*/
+
+/*    width: 100px;*/
+/*    height: 200px;*/
+
+/*    box-sizing: border-box;*/
+
+/*    display: inline-block;*/
+
+/*    box-shadow: 4px 4px 2px rgba(255,0,0,0.75);*/
+/*}*/
+
+/*.name_two {*/
+/*    visibility: hidden;*/
+/*    display: none;*/
+
+/*}*/
+/*---------------------------------------------------------*/
+
+/*body {*/
+/*    height: 2000px;*/
+/*}*/
+
+/*div {*/
+/*    width: 250px;*/
+/*    height: 250px;*/
+/*    position: absolute;*/
+/*}*/
+
+/*.red {*/
+/*    background: red;*/
+/*    z-index: 6;*/
+/*    left: 250px;*/
+/*    top: 100px;*/
+/*}*/
+
+/*.green {*/
+/*    background: green;*/
+/*    z-index: 5;*/
+/*    left: 150px;*/
+/*}*/
+
+/*.blue {*/
+/*    background: blue;*/
+/*    z-index: 4;*/
+/*    left: 100px;*/
+/*    top: 100px;*/
+/*}*/
+
+/*.orange {*/
+/*    background: orange;*/
+/*    left: 50px;*/
+/*}*/
+
+/*.yellow {*/
+/*    background: yellow;*/
+/*    top: 100px;*/
+/*    z-index: -1;*/
+/*}*/
+
+/*.box {*/
+/*    border-radius: 50%;*/
+/*    background: white;*/
+/*    width: 50px;*/
+/*    height: 50px;*/
+/*    position: sticky;*/
+/*    top: 0;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
+
+/*---------------------------------------------------------*/
+
+/*.container {*/
+/*    border: 3px solid black;*/
+/*    height: 300px;*/
+/*    margin: 30px;*/
+/*    display: flex;*/
+/*    !*flex-wrap: wrap;*!*/
+/*    !*flex-direction: row;*!*/
+/*    flex-flow: wrap row;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    !*align-content: center;  !* Active in wrapping case *!*!*/
+/*}*/
+
+/*.red {*/
+/*    background-color: red;*/
+/*    color: white;*/
+/*    !*order: 1;*!*/
+/*}*/
+
+/*.green {*/
+/*    background-color: green;*/
+/*    color: white;*/
+/*    width: 200px;*/
+/*    align-self: end;*/
+/*}*/
+
+/*.blue {*/
+/*    background-color: darkblue;*/
+/*    color: white;*/
+/*    height: 100px;*/
+/*    !*order: 2;*!*/
+/*}*/
+
+/*.brown {*/
+/*    background-color: brown;*/
+/*    color: white;*/
+/*    width: 150px;*/
+/*    height: 150px;*/
+/*    align-self: start;*/
+/*}*/
+
+/*---------------------------------------------------------*/
+
+/*.container {*/
+/*    border: 3px solid black;*/
+/*    height: 600px;*/
+/*    margin: 30px;*/
+/*    display: grid;*/
+/*    justify-content: center;*/
+/*    align-content: center;*/
+/*    !*justify-items: center;*!*/
+/*    !*align-items: center;*!*/
+/*    grid-template-columns: repeat(auto-fit, 150px);*/
+/*    grid-auto-flow: row;*/
+/*    grid-gap: 8px;*/
+/*    grid-auto-rows: minmax(100px, auto);*/
+/*}*/
+
+/*.navbar {*/
+/*    background-color: red;*/
+/*    color: white;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+
+/*    !*grid-column: 1/-1;*!*/
+/*}*/
+
+/*.drawer {*/
+/*    background-color: green;*/
+/*    color: white;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+
+/*    !*grid-row: 2/10;*!*/
+/*    !*grid-column: 1/2;*!*/
+
+/*}*/
+
+/*.content_1 {*/
+/*    background-color: darkblue;*/
+/*    color: white;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+
+/*    !*grid-row: 2/6;*!*/
+/*    !*grid-column: 2/4;*!*/
+/*}*/
+
+/*.content_2 {*/
+/*    background-color: brown;*/
+/*    color: white;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+
+/*    !*grid-row: 2/6;*!*/
+/*    !*grid-column: 4/-1;*!*/
+/*}*/
+
+/*.content_3 {*/
+/*    background-color: palegreen;*/
+/*    color: black;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+
+/*    !*grid-row: 6/10;*!*/
+/*    !*grid-column: 2/4;*!*/
+/*}*/
+
+/*.content_4 {*/
+/*    background-color: beige;*/
+/*    color: black;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+
+/*    !*grid-row: 6/10;*!*/
+/*    !*grid-column: 4/-1;*!*/
+/*}*/
+
+/*.footer {*/
+/*    background-color: goldenrod;*/
+/*    color: white;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+
+/*    !*grid-column: 1/-1;*!*/
+/*}*/
+
+/*---------------------------------------------------------*/
+
+/*html {*/
+/*    background-color: beige;*/
+/*}*/
+
+/*body {*/
+/*    !*background-color: red;*!*/
+/*    height: 100px;*/
+/*}*/
+
+/*img {*/
+/*    width: 100%;*/
+/*    max-width: 500px;*/
+/*    min-width: 300px;*/
+/*    !*height: 200px;*!*/
+/*}*/
+
+/*#ceil, #ceil1, #ceil2 {*/
+/*    fill: white;*/
+/*}*/
+
+/*---------------------------------------------------------*/
+
+/*div {*/
+/*    border: 15px dashed black;*/
+/*    margin: 15px;*/
+/*    width: 500px;*/
+/*    height: 500px;*/
+/*    padding: 15px;*/
+/*    background-color: cadetblue;*/
+/*    background-image: url("../images/car-svg.svg");*/
+/*    background-repeat: space repeat;*/
+/*    background-origin: content-box;*/
+/*    background-clip: padding-box;*/
+/*}*/
+
+/*body {*/
+/*    height: 2000px;*/
+/*}*/
+
+/*div {*/
+/*    border: 15px dashed black;*/
+/*    margin: 15px;*/
+/*    width: 80%;*/
+/*    height: 500px;*/
+/*    padding: 15px;*/
+/*    background-image: url("../images/kitten.jpg");*/
+/*    background-repeat: no-repeat;*/
+/*    background-position: center;*/
+/*    background-size: cover;*/
+/*    background-clip: padding-box;*/
+/*    background-attachment: fixed;*/
+/*    !*font-size: 80px;*!*/
+/*    !*overflow: hidden; !*If you use text on the background and cause overflow from the border*!*!*/
+/*}*/
+
+/*button {*/
+/*    margin: 15px;*/
+/*    width: 200px;*/
+/*    height: 40px;*/
+/*    color: white;*/
+/*    cursor: pointer;*/
+/*    background-image: linear-gradient(120deg, black 50%, transparent 50%);*/
+/*    background-size: 100%;*/
+/*    transition: all .8s;*/
+/*}*/
+
+/*button:hover {*/
+/*    background-size: 220%;*/
+/*}*/
+
+/*div {*/
+/*    width: 400px;*/
+/*    height: 400px;*/
+/*    !*    background-image: repeating-linear-gradient(#6A201B 0 5%, goldenrod 5% 10%);*!*/
+/*    background-image: linear-gradient(45deg, #6A201B 25%, transparent 25%),*/
+/*    linear-gradient(-45deg, #6A201B 25%, transparent 25%),*/
+/*    linear-gradient(-45deg, #511815 50%, transparent 50%),*/
+/*    linear-gradient(45deg, #A7332B 50%, #D35D55 50%);*/
+/*    background-position: 10px 0, -10px 0, 0 0, 0 0;*/
+/*    background-size: 20px 20px;*/
+/*    background-repeat: repeat;*/
+/*}*/
+
+/*h2 {*/
+/*    font-size: 60px;*/
+/*    filter: drop-shadow(15px 10px 2px gray);*/
+/*}*/
+
+/*---------------------------------------------------------*/
+
+/*.text {*/
+/*    !*padding: 15px;*!*/
+/*    !*font-size: 28px;*!*/
+/*    !*font-weight: bold;*!*/
+
+/*    !*color: brown;*!*/
+
+/*    !*width: 300px;*!*/
+/*    !*white-space: nowrap;*!*/
+/*    !*overflow: hidden;*!*/
+/*    !*text-overflow: ellipsis;*!*/
+
+/*    !*text-indent: 20px;*!*/
+
+/*    !*writing-mode: vertical-rl;*!*/
+/*    !*text-orientation: upright;*!*/
+
+/*    !*word-spacing: 20px;*!*/
+
+/*    !*letter-spacing: 10px;*!*/
+
+/*    !*word-break: break-word;*!*/
+
+/*    !*column-count: 3;*!*/
+/*    !*column-rule: 10px dashed orange;*!*/
+/*    !*column-gap: 50px;*!*/
+/*    !*column-width: 150px;*!*/
+/*}*/
+
+/*---------------------------------------------------------*/
+
+/*div {*/
+/*    background-color: orange;*/
+/*    width: 150px;*/
+/*    height: 150px;*/
+/*    transition: 1.5s all cubic-bezier(.17,0,.43,1.66);*/
+/*}*/
+
+/*div:hover {*/
+/*    width: 600px;*/
+/*    height: 400px;*/
+/*}*/
+
+/*div {*/
+/*    width: 150px;*/
+/*    height: 150px;*/
+/*    border: 5px dashed black;*/
+/*    background-clip: padding-box;*/
+/*    animation: myScale 5s ease-in-out infinite;*/
+/*    animation-direction: alternate;*/
+/*    !*animation-fill-mode: backwards;*!*/
+/*}*/
+
+/*div:hover {*/
+/*    animation-play-state: paused;*/
+/*}*/
+
+/*@keyframes myScale {*/
+/*    0%, 100% {*/
+/*        background-color: white;*/
+/*    }*/
+
+/*    25% {*/
+/*        background-color: skyblue;*/
+/*    }*/
+
+/*    50% {*/
+/*        background-color: gray;*/
+/*    }*/
+
+/*    75% {*/
+/*        background-color: black;*/
+/*    }*/
+/*}*/
+
+/*---------------------------------------------------------*/
+
+/*body {*/
+/*    margin: 150px;*/
+/*}*/
+
+/*div {*/
+/*    width: 150px;*/
+/*    height: 150px;*/
+/*    display: inline-block;*/
+/*    color: white;*/
+/*}*/
+
+/*.div1 {*/
+/*    background-color: brown;*/
+/*    transform: scaleX(1.5) skewY(20deg);*/
+/*}*/
+
+/*.div2 {*/
+/*    background-color: darkblue;*/
+/*    transform: rotateX(200deg) translateY(100px);*/
+/*}*/
+
+/*---------------------------------------------------------*/
+
+/*div {*/
+/*    margin: 50px;*/
+/*    position: relative;*/
+/*    width: 0;*/
+/*    height: 0;*/
+/*    border-top: 8px solid transparent;*/
+/*    border-right: 8px solid red;*/
+/*}*/
+
+/*div:before {*/
+/*    content: '';*/
+/*    width: 12px;*/
+/*    height: 12px;*/
+/*    position: absolute;*/
+/*    top: -8px;*/
+/*    left: -6px;*/
+/*    border: 0 solid transparent;*/
+/*    border-top: 3px solid red;*/
+/*    border-radius: 50%;*/
+/*    transform: rotate(12deg);*/
+/*}*/
+
+/*---------------------------------------------------------*/
