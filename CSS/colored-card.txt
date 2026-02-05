@@ -1,0 +1,55 @@
+HTML:
+
+<div className="colored-card">
+	<h2>CARD</h2>
+</div>
+
+
+CSS:
+
+
+.colored-card {
+    position: relative;
+    width: 150px;
+    height: 254px;
+    background: #801333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.colored-card:before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    background-image: linear-gradient(180deg, rgb(0, 183, 255), rgb(255, 48, 255));
+    height: 130%;
+    animation: rotBGimg 3s linear infinite;
+}
+
+.colored-card::after {
+    content: '';
+    position: absolute;
+    /*inset: 5px;*/
+    top: 5px;
+    left: 5px;
+    bottom: 5px;
+    right: 5px;
+    background: #801333;
+}
+
+.colored-card h2 {
+    z-index: 1;
+    font-size: 20px;
+    color: #fff;
+}
+
+@keyframes rotBGimg {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
